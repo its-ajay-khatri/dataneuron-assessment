@@ -1,0 +1,67 @@
+.userdata-section-container {
+    width: 100%;
+
+    margin: 1em auto;
+  }
+  
+  .user-info {
+    margin-bottom: 20px;
+  }
+  .user-data-form {
+    display: flex;
+    flex-direction: column;
+  } 
+  
+   .input-field {
+    margin-bottom: 10px;
+  }
+
+  .form-button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-button-container button {
+    width: 50%;
+  }
+  
+  .user-data-form button {
+    margin-top: 10px;
+    padding: 13px 16px;
+    background-color: #007bff;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user-data-form button:hover {
+    background-color: #0056b3;
+  }
+
+  .user-data-form input{
+    padding: 13px 10px;
+    margin: 7px 0em;
+  }
+
+  .user-data-form span{
+    margin-bottom: 15px;
+    color: red;
+  }
+
+  .green-validation{
+    color:rgb(2, 172, 2);
+    border: 2px solid rgb(2, 172, 2);
+    padding: 5px 2px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    .userdata-section-container {
+      max-width: 100%;
+    }
+  }
+  
